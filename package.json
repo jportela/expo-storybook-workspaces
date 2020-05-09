@@ -5,11 +5,9 @@
   ],
   "scripts": {
     "web": "yarn workspace @my/app run web",
-    "storybook": "yarn workspace @my/ui run storybook"
+    "storybook": "yarn workspace @my/storybook run start"
   },
   "resolutions": {
-    "react": "16.9.0",
-    "react-dom": "16.9.0",
     "webpack": "4.39.0"
   }
 }

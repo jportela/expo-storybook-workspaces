@@ -1,0 +1,22 @@
+{
+  "name": "@my/storybook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@my/ui": "1.0.0",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
+    "react-native-web": "0.11.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@expo/webpack-config": "^0.12.4",
+    "@storybook/react": "^5.3.18",
+    "babel-loader": "^8.1.0"
+  },
+  "scripts": {
+    "start": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}

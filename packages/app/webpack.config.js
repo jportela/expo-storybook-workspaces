@@ -7,7 +7,7 @@ module.exports = async function(env, argv) {
       babel: {
         dangerouslyAddModulePathsToTranspile: [
           // Ensure that all packages starting with @my are transpiled.
-          '@my',
+          '@my/ui',
         ],
       },
     },
