@@ -1,5 +1,5 @@
 import React from 'react';
-import PrimaryButton from '../components/buttons/primary';
+import PrimaryButton from './primary';
 
 export default {
   title: 'Button',
