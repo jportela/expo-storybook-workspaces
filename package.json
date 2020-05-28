@@ -4,7 +4,19 @@
     "packages/*"
   ],
   "scripts": {
-    "web": "yarn workspace @my/app run web",
+    "clean:all": "yarn clean:node-modules && yarn clean:expo-cache",
+    "clean:node-modules": "rimraf node_modules packages/*/node_modules",
+    "clean:expo-cache": "rimraf packages/*/.expo",
+    "format": "prettier --write --ignore-path .gitignore packages/**",
+    "start": "yarn workspace @my/app run start",
     "storybook": "yarn workspace @my/ui run storybook"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5",
+    "rimraf": "^3.0.2"
+  },
+  "resolutions": {
+    "react": "16.9.0",
+    "react-dom": "16.9.0"
   }
 }

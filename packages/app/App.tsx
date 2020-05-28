@@ -1,5 +1,5 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react'
+import { StyleSheet, Text, View } from 'react-native'
 import { PrimaryButton } from '@my/ui'
 
 export default function App() {
@@ -8,7 +8,7 @@ export default function App() {
       <Text>Open up App.tsx to start working on your app!</Text>
       <PrimaryButton title="Hello, world!" />
     </View>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
@@ -18,4 +18,4 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-});
+})
